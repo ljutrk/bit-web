@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Rammetto One";
+    src: url(https://fonts.gstatic.com/s/rammettoone/v6/mh0uQ1tV8QgSx9v_KyEYPD0LW-43aMEzIO6XUTLjad8.woff2);
+}
+
+body{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#jedan {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+#dva {
+    font-style: oblique;
+    text-align: justify;    
+}
+#tri {
+   /*font-family: monospace;*/
+    font-style: normal;
+    text-shadow: 2px 2px 2px rgba(150, 120, 87, 0.5);
+}
+#q1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#q2 {
+    /* font-family: cursive; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.span{
+    font-weight: bolder;
+    font-style: italic;
+    font-family: "Rammetto One";
+}
+
