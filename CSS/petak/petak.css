@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'roboto';
+    
+    src: url('https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxGIzIFKw.woff2');
+}
+body{
+    background: #222;
+}
+
+h1 {
+    
+    width: 960px;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    padding: 50px 0px;
+    text-shadow: 1px 5px 5px rgba(0,255,38,0.58);
+    background-color: rgba(0,0,0,0.3);
+    color: rgba(0,255,38,1);
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    letter-spacing: 3px;
+    box-shadow: 10px 18px 161px 20px rgba(0,255,38,0.58);
+    border-radius: 10px;
+
+}
+
+img {
+    display: block;
+    border-radius: 30%;
+    margin: 0px auto;
+    background: rgba(0,255,38,0.3);
+    box-shadow: 10px 18px 161px 20px rgba(0,255,38,0.58);
+
+}
+p{
+    font-family: 'roboto';
+    background-color: rgba(0,0,0,0.1);
+    border: 5px thick;
+    color: greenyellow;
+    margin-right: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+#jedan {
+    width: 300px;
+}
+
+#dva {
+    width: 400px;
+    opacity: 1;
+    
+}
+
+#tri{
+    width: 200px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+#tri:hover {
+    opacity: 0;
+}
