@@ -1,0 +1,50 @@
+#prva {
+    list-style: circle;
+}
+
+#druga {
+    list-style: square;
+}
+
+#treca {
+    list-style: upper-alpha;
+}
+
+#cetvrta {
+    list-style: upper-roman;
+}
+
+/* #peta > li {
+    list-style: upper-roman;
+    margin: 5px;
+	padding: 0px 20px;
+	list-style: none;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/68/Bullet-green.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+} */
+
+#peta{
+    /* padding: 0px 15px; */
+    width:200px;
+    list-style-image: url(http://www.essentialbaby.com.au/forums/public/style_images/master/bullet.png);
+}
+
+
+/* #sesta > li {
+    list-style: upper-roman;
+    margin: 5px;
+	padding: 0px 20px;
+	list-style: none;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f7/Bullet-blue.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 10px; 
+}*/
+#sesta{
+    /* padding: 0px 15px; */
+    width:200px;
+    list-style-position: inside;
+    list-style-image: url(https://www.gizbot.com/images/xthumb-up.png.pagespeed.ic.1v_YrrHuZC.png);
+}
