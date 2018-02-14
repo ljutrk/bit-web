@@ -1,0 +1,69 @@
+div div {
+    height: 200px;
+    width: 200px;
+}
+
+
+hr {
+    margin: 50px 0;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.dva .yellow {
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+.dva .blue {
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+.tri .red {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.tri .yellow {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 1;
+}
+
+.tri .blue {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+
+.jedan, .dva, .tri {
+    position: relative;
+    height: 600px;
+}
+.blue:hover{
+    z-index: 3;
+    border: 3px solid green;
+}
+.red:hover{
+    z-index: 3;
+    border: 3px solid green;
+}
+.yellow:hover{
+    z-index: 3;
+    border: 3px solid green;
+}

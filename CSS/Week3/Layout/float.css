@@ -1,0 +1,59 @@
+p {
+    height: 200px;
+    width: 300px;
+}
+
+ul {
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    float:right;
+    margin-right: 20px;
+}
+
+#csshtml {
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    padding: 0 10px;   
+}
+
+#jedan {
+    margin: 0 auto;
+    background-color: rgb(195, 29, 0);
+    width: 960px;
+    overflow: auto;
+}
+
+#dva {
+    border: white solid 1px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#tri {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.crvena {
+background-color: rgb(195, 29, 0);
+margin: 10px;
+}
+
+.plava {
+    background-color: rgb(35, 66, 92)
+}
+
+.zuta {
+    background-color: rgb(253, 186, 60)
+}
+
+.zelena {
+    background-color: rgb(103, 173, 71)
+
+}
+
