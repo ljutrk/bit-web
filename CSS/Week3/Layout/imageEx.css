@@ -1,0 +1,17 @@
+.jedan {
+    height: 200px;
+    float: right;
+}
+
+.dva {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.tri {
+    height: 200px;
+    width: 200px;
+    float: left;
+
+}

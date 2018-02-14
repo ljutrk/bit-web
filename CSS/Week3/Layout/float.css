@@ -1,24 +1,27 @@
 p {
     height: 200px;
     width: 300px;
+    display: inline-block;
+    margin: 5px;
 }
 
-ul {
+.navigacija {
     font-family: sans-serif;
     color: white;
     font-size: 16px;
     font-weight: bold;
-    float:right;
+    float: right;
     margin-right: 20px;
+    padding-left: 0px;
+}
+
+.navigacija li {
+    display: inline-block;
+    padding: 0 10px; 
 }
 
 #csshtml {
     width: 100%;
-}
-
-li {
-    display: inline-block;
-    padding: 0 10px;   
 }
 
 #jedan {
@@ -44,16 +47,34 @@ background-color: rgb(195, 29, 0);
 margin: 10px;
 }
 
-.plava {
-    background-color: rgb(35, 66, 92)
+.lista {
+
+    /* height: 300px;
+    width: 300px; */
+    float: right;
+    background: goldenrod;
+    color: black;
+    position: relative;
+   
+}
+.lista ul{
+
+    padding-left: 0px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 300px;
+    
+}
+.lista li {
+    padding: 10px 0;
+    margin: 0px 15px;
+    border-bottom: 1px black solid;
+    list-style-type: none;
+    
 }
 
-.zuta {
-    background-color: rgb(253, 186, 60)
+.textimg {
+    margin: 5px 15px 5px 0;
+    display: inline-block;
 }
-
-.zelena {
-    background-color: rgb(103, 173, 71)
-
-}
-

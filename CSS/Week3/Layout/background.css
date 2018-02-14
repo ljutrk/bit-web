@@ -1,0 +1,11 @@
+p {
+    font-family: sans-serif;
+    color: rgb(1, 255, 1);
+    font-size: 28px;
+}
+
+body {
+    background-image: url(https://www.srbijadanas.com/sites/default/files/styles/full_article_image/public/a/t/2016/10/15/dani.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
