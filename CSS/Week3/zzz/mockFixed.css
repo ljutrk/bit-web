@@ -1,0 +1,50 @@
+header {
+    width: 960px;
+    margin: 0 450px;
+    padding: 50px 50px 50px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    width: 960px;
+    margin: 0 450px;
+}
+
+header img {
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+
+section {
+    float: left;
+    position: relative;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 17px;
+}
+
+articles {
+    float: right;
+    position: relative;
+    width: 560px;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 17px;
+    border-left: 3px rgb(11, 102, 46) solid;
+}
+
+p span {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(40, 122, 44);
+    
+}
+
+main p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

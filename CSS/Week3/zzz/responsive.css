@@ -1,0 +1,68 @@
+.container {
+    width: 100%;
+    font-family: sans-serif;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container img {
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    
+}
+
+.articles {
+    margin: 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.articles img {
+    width: 100%;
+    border: 1px solid white;
+    padding: 2%;
+    box-sizing: border-box;
+    
+}
+
+.articles p {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.headerImg {
+    margin: 30px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    
+
+}
+
+li {
+    width: 100%;
+    padding: 2% 0;
+    background-color: white;
+    text-align: center;
+    border: 1px white solid;
+}
+
+.lihome {
+    border-radius: 8px 8px 0px 0px;
+    background-color: rgb(62, 152, 226);
+    
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
