@@ -1,68 +1,116 @@
-.container {
+* {
+    box-sizing: border-box;
+}
+
+main {
     width: 100%;
     font-family: sans-serif;
     color: black;
+    position: relative;
 }
 
 h1 {
     text-align: center;
 }
 
-.container img {
+header img {
     width: 100%;
-    padding: 2%;
-    box-sizing: border-box;
-    
+    padding: 3%;
 }
 
-.articles {
+article {
     margin: 30px;
     border: 1px solid gray;
     border-radius: 8px;
-    box-sizing: border-box;
 }
 
-.articles img {
+article img {
     width: 100%;
     border: 1px solid white;
     padding: 2%;
-    box-sizing: border-box;
-    
 }
 
-.articles p {
+article p {
     width: 100%;
     text-align: center;
     padding: 10px 0px;
 }
 
-.headerImg {
-    margin: 30px;
-}
-
-ul {
+nav ul {
     list-style: none;
     padding-left: 0px;
-    
-
+    border: 1px solid black;
+    margin: 3%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-li {
+nav ul a li {
     width: 100%;
     padding: 2% 0;
-    background-color: white;
     text-align: center;
-    border: 1px white solid;
-}
-
-.lihome {
-    border-radius: 8px 8px 0px 0px;
-    background-color: rgb(62, 152, 226);
-    
 }
 
 a {
-    display: block;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+main nav ul a li:hover {
+    background-color: royalblue;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.midButton {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+@media(min-width:768px){
+    h1 {
+        text-align: left;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    nav ul a li {
+        display: inline;
+    }
+
+    .midButton {
+        border: none;
+    }
+
+    nav ul {
+        border: none;
+    }
+
+    article img {
+        float: left;
+        width: 50%;
+    }
+
+    article p {
+       width: 50%;
+       float: right;
+       vertical-align: middle;
+       display: inline;
+
+    }
+
+    article::after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+
 }
 
