@@ -1,0 +1,15 @@
+
+@mixin text-shadow($shadow1, $shadow2, $shadow3, $color){
+    text-shadow: $shadow1 $shadow2 $shadow3 $color;
+    -moz-text-shadow: $shadow1 $shadow2 $shadow3 $color;
+    -webkit-text-shadow: $shadow1 $shadow2 $shadow3 $color;
+    -ms-text-shadow: $shadow1 $shadow2 $shadow3 $color;
+
+}
+
+@mixin box-shadow($shadow1, $shadow2, $shadow3, $shadow4, $color){
+    -webkit-box-shadow: $shadow1 $shadow2 $shadow3 $shadow4 $color;
+    -moz-box-shadow: $shadow1 $shadow2 $shadow3 $shadow4 $color;
+    box-shadow: $shadow1 $shadow2 $shadow3 $shadow4 $color;
+
+}

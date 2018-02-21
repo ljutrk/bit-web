@@ -1,0 +1,27 @@
+.big-font {
+    font-size: 24px;
+}
+
+.width {
+    width: 400px/900px * 100%;
+}
+.width2{
+    width: 0.2 * 100%;
+}
+
+.bg-red {
+    @extend .big-font;
+    background-color: green;
+    border: 3px solid red;
+}
+
+.second {
+    border: 3px solid blue;
+    @extend .big-font;
+    @extend .width;
+}
+
+.third {
+    border: 3px solid green;
+    @extend .width2;
+}
