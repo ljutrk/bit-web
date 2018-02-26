@@ -1,0 +1,59 @@
+.navigacija {
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+    padding-left: 0px;
+}
+
+.navigacija li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+#jedan {
+    margin: 0 auto;
+    background-color: rgb(195, 29, 0);
+    overflow: auto;
+}
+
+#dva {
+    border: white solid 1px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.tri {
+    width: 960px;
+    margin: 10px auto;
+}
+
+.container {
+    width: 960px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+    color: red;
+}
+.col-4{
+    float: left;
+}
+.cl{
+    clear: left;
+}
+
+.card {
+    margin: 10px 0;
+}
+
+.imgWidth {
+    width: 100%;
+}
