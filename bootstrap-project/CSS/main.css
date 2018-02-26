@@ -1,0 +1,20 @@
+header {
+  background-color: #2c3e50; }
+
+img {
+  display: block;
+  margin: 0 auto; }
+
+.greenish {
+  background-color: #18bc9c; }
+
+#greenish {
+  background-color: #18bc9c; }
+
+.blueish {
+  background-color: #2c3e50; }
+
+.bg-ourColor {
+  background-color: #18bc9c !important; }
+
+/*# sourceMappingURL=main.css.map */
