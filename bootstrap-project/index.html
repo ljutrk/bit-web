@@ -6,49 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light  blueish">
-                <a class="navbar-brand text-white" href="#">BIT STUDENT</a>
-                <button class="navbar-toggler bg-ourColor" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    MENU
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <nav class="navbar navbar-expand-lg navbar-light  blueish">
+            <a class="navbar-brand text-white" href="#">BIT STUDENT</a>
+            <button class="navbar-toggler bg-ourColor" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                MENU
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link text-white" href="#">PORTFOLIO
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+            <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">PORTFOLIO
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
     </header>
 
     <section class="greenish">
         <div class="container">
-
-
             <div class="row">
-                <div class="col-10 offset-1">
+                <div class="col-12">
                     <img src="img/profile.png" alt="">
-                    <h1 class="text-center">BOOTSTRAP AND SASS</h1>
+                    <h1 class="maintitle text-center">BOOTSTRAP AND SASS</h1>
+                    <div class="starUnderline col-12">
+                        <span class="starLeftW"></span><span><i class="fas fa-star"></i></span><span class="starRightW"></span>
+                    </div>
                     <p class="text-center">Web Developer - Graphic Artist - User Experience Designer</p>
                 </div>
             </div>
@@ -58,24 +59,26 @@
 
     <main>
         <div class="container">
-            <h2 class="text-center"><span class="h2span">PORTFOLIO</span></h2>
+            <h2 class="text-center">
+                <span class="h2span">PORTFOLIO</span>
+            </h2>
             <div class="row">
-                <div class="col-10 offset-1">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="slike" src="img/portfolio/cabin.png" alt="">
                 </div>
-                <div class="col-10 offset-1">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="slike" src="img/portfolio/cake.png" alt="">
                 </div>
-                <div class="col-10 offset-1">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="slike" src="img/portfolio/circus.png" alt="">
                 </div>
-                <div class="col-10 offset-1">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="slike" src="img/portfolio/game.png" alt="">
                 </div>
-                <div class="col-10 offset-1">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="slike" src="img/portfolio/safe.png" alt="">
                 </div>
-                <div class="col-10 offset-1">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="slike" src="img/portfolio/submarine.png" alt="">
                 </div>
             </div>
@@ -83,13 +86,26 @@
     </main>
 
     <section class="about greenish">
-        <div class="container">
-            <h2><span class="h2spanW">ABOUT</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero nihil, sunt possimus deleniti dolorum
-                voluptatum nostrum, id sapiente ratione veniam magnam. Provident corrupti itaque eius obcaecati quisquam
-                mollitia quod.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, esse veritatis ex quaerat pariatur quam, error
-                explicabo harum delectus repellendus earum voluptatum sunt ullam. Non impedit error id ad sint?</p>
+        <div class="container aboutC">
+            <h2>
+                ABOUT
+                <div class="starUnderline col-12">
+                        <span class="starLeftW"></span><span><i class="fas fa-star"></i></span><span class="starRightW"></span>
+                    </div>
+            </h2>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero nihil, sunt possimus deleniti
+                        dolorum voluptatum nostrum, id sapiente ratione veniam magnam. Provident corrupti itaque eius obcaecati
+                        quisquam mollitia quod.</p>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, esse veritatis ex quaerat pariatur quam,
+                        error explicabo harum delectus repellendus earum voluptatum sunt ullam. Non impedit error id ad sint?</p>
+
+                </div>
+            </div>
             <button class="aboutButton" type="button" class="btn btn-sm greenish">
                 <i class="fas fa-info-circle"></i> Find Out More
             </button>
@@ -98,52 +114,60 @@
 
     <section class="contact">
         <div class="container">
-            <h2><span class="h2span">CONTACT ME</span></h2>
+            <h2>
+                <span class="h2span">CONTACT ME</span>
+            </h2>
             <form action="" method="POST">
                 <div class="form-group">
-                    <label for="formGroupExampleInput">Name</label>
+
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput2">Email Address</label>
+
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email Address">
                 </div>
                 <div class="form-group">
-                    <label for="formGroupExampleInput">Phone Number</label>
+
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone Number">
                 </div>
                 <div class="form-group">
-                    <label for="comment">Message</label>
+
                     <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
                 </div>
-                <button class="btn contactButton greenish" type="submit" form="">Send</button>
+                <button class="btn contactButton" type="submit" form="">Send</button>
             </form>
         </div>
     </section>
 
     <footer class="blueish">
         <div class="container">
-            <div class="col-12">
-                <h3>LOCATION</h3>
-                <p>Centar za obrazovanje
-                    <br> BIT TECNHOLOGY
-                    <br> Nemanjina 4/I, Beograd</p>
-                <h3>AROUND THE WEB</h3>
-                <p>
-                    <i class="fab fa-facebook-square fa-3x"></i>
-                    <i class="fab fa-google-plus-square fa-3x"></i>
-                    <i class="fab fa-twitter-square fa-3x"></i>
-                    <i class="fab fa-linkedin fa-3x"></i>
-                </p>
-                <h3>MORE DETALIS</h3>
-                <p>We believe that the future of Serbia firmly depends on our ability to scale the number of individuals involved
-                    in the IT sector. That is why we founded BIT.</p>
-                <p class="copyright">Copyright &#169; Bit student 2018
-                    <br>
-                    <span>Bit thanks to Start Bootstrap!</span>
-                </p>
-
+            <div class="row">
+                <div class="col-sm-4 footer1">
+                    <h3>LOCATION</h3>
+                    <p>Centar za obrazovanje
+                        <br> BIT TECNHOLOGY
+                        <br> Nemanjina 4/I, Beograd</p>
+                </div>
+                <div class="col-sm-4 footer2">
+                    <h3>AROUND THE WEB</h3>
+                    <p>
+                        <i class="fab fa-facebook-square fa-3x"></i>
+                        <i class="fab fa-google-plus-square fa-3x"></i>
+                        <i class="fab fa-twitter-square fa-3x"></i>
+                        <i class="fab fa-linkedin fa-3x"></i>
+                    </p>
+                </div>
+                <div class="col-sm-4 footer3">
+                    <h3>MORE DETALIS</h3>
+                    <p>We believe that the future of Serbia firmly depends on our ability to scale the number of individuals
+                        involved in the IT sector. That is why we founded BIT.</p>
+                </div>
             </div>
+            <p class="copyright">Copyright &#169; Bit student 2018
+                <br>
+                <span>Bit thanks to Start Bootstrap!</span>
+            </p>
+
         </div>
     </footer>
 
