@@ -1,7 +1,14 @@
+$greenish: #18bc9c;
+$blueish: #2c3e50;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
-    background-color: #2c3e50;
+    background-color: $blueish;
     font-weight: bold;
 
 }
@@ -12,18 +19,23 @@ img {
 }
 
 .greenish {
-    background-color: #18bc9c;
+    background-color: $greenish;
+    padding: 20px;
 }
 
 #greenish {
-    background-color: #18bc9c;
+    background-color: $greenish;
 }
 
 .blueish {
-    background-color: #2c3e50;
+    background-color: $blueish;
 }
 .bg-ourColor{
-    background-color: #18bc9c!important;
+    background-color: $greenish !important;
+}
+
+main {
+    padding: 20px 0;
 }
 
 .slike {
@@ -31,9 +43,20 @@ img {
     margin-bottom: 15px;
 }
 
+.h2span {
+    border-bottom: solid black 4px;
+    padding-bottom: 5px;
+}
+
+.h2spanW {
+    border-bottom: solid white 4px;
+    padding-bottom: 5px;
+}
+
 main h2 {
     margin: 20px 0;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 section p {
@@ -42,11 +65,12 @@ section p {
 
 .aboutButton {
     border: 1px solid white;
-    background-color: #18bc9c;
+    background-color: $greenish;
     border-radius: 2px;
     color: white;
     margin: 0 auto;
     display: block;
+    padding: 5px;
     
 }
 
@@ -65,4 +89,25 @@ section h2 {
     text-align: center;
     color: black;
     font-weight: bold;
+}
+
+.contactButton {
+    color: white;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+footer p {
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+
 }

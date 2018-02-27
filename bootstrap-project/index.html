@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body>
@@ -57,7 +58,7 @@
 
     <main>
         <div class="container">
-            <h2 class="text-center">PORTFOLIO</h2>
+            <h2 class="text-center"><span class="h2span">PORTFOLIO</span></h2>
             <div class="row">
                 <div class="col-10 offset-1">
                     <img class="slike" src="img/portfolio/cabin.png" alt="">
@@ -83,53 +84,68 @@
 
     <section class="about greenish">
         <div class="container">
-            <h2>ABOUT</h2>
+            <h2><span class="h2spanW">ABOUT</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero nihil, sunt possimus deleniti dolorum
                 voluptatum nostrum, id sapiente ratione veniam magnam. Provident corrupti itaque eius obcaecati quisquam
                 mollitia quod.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, esse veritatis ex quaerat pariatur quam, error
                 explicabo harum delectus repellendus earum voluptatum sunt ullam. Non impedit error id ad sint?</p>
-            <button class="aboutButton" type="button" class="btn btn-sm greenish">Find Out More</button>
+            <button class="aboutButton" type="button" class="btn btn-sm greenish">
+                <i class="fas fa-info-circle"></i> Find Out More
+            </button>
         </div>
     </section>
 
     <section class="contact">
         <div class="container">
-            <h2>CONTACT ME</h2>
-            <div class="row">
-                <div class="col-12">
-                    <label for="">Name
-                        <br>
-                        <input type="text">
-                    </label>
+            <h2><span class="h2span">CONTACT ME</span></h2>
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Email Address</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Phone Number</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Message</label>
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                </div>
+                <button class="btn contactButton greenish" type="submit" form="">Send</button>
+            </form>
+        </div>
+    </section>
 
+    <footer class="blueish">
+        <div class="container">
             <div class="col-12">
-                <label for="">Email Address
+                <h3>LOCATION</h3>
+                <p>Centar za obrazovanje
+                    <br> BIT TECNHOLOGY
+                    <br> Nemanjina 4/I, Beograd</p>
+                <h3>AROUND THE WEB</h3>
+                <p>
+                    <i class="fab fa-facebook-square fa-3x"></i>
+                    <i class="fab fa-google-plus-square fa-3x"></i>
+                    <i class="fab fa-twitter-square fa-3x"></i>
+                    <i class="fab fa-linkedin fa-3x"></i>
+                </p>
+                <h3>MORE DETALIS</h3>
+                <p>We believe that the future of Serbia firmly depends on our ability to scale the number of individuals involved
+                    in the IT sector. That is why we founded BIT.</p>
+                <p class="copyright">Copyright &#169; Bit student 2018
                     <br>
-                    <input type="text">
-                </label>
-
-            </div>
-
-            <div class="col-12">
-                <label for="">Phone Number
-                    <br>
-                    <input type="text">
-                </label>
-
-            </div>
-
-            <div class="col-12">
-                <label for="">Message
-                    <br>
-                    <input type="text">
-                </label>
+                    <span>Bit thanks to Start Bootstrap!</span>
+                </p>
 
             </div>
         </div>
-    </section>
+    </footer>
 
 
 
