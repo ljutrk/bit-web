@@ -1,0 +1,5 @@
+.selected {
+    box-sizing: border-box;
+    border: 2px solid red;
+    padding: 5px;
+}
