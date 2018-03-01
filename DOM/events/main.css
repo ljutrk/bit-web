@@ -1,0 +1,21 @@
+.blue {
+    background-color: blue;
+}
+
+body {
+    background-color: green;
+}
+
+button {
+    margin: 50% auto;
+    display: block;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 20px white;
+
+    
+}
