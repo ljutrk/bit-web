@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+        .greenBorder {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        $(function () {
+            var gallery = [
+                "http://via.placeholder.com/200",
+                "http://via.placeholder.com/200",
+                "http://via.placeholder.com/200",
+                "http://via.placeholder.com/200",
+                "http://via.placeholder.com/200"
+            ]
+
+
+            var $div = $("<div>");
+            var $body = $("body");
+
+
+            gallery.forEach(function (element) {
+                var $img = $("<img>");
+                $img.attr("src", element);
+                $div.append($img);
+            })
+
+            $body.append($div);
+
+            var $title = ("<h1>Title</h1>");
+            $("img:first").before($title);
+
+            $("img").each(function () {
+                var $element = $(this);
+
+                $element.attr("width", Math.floor(Math.random() * (300 - 100) + 100));
+            })
+
+
+            $("img").each(function () {
+                var $element = $(this);
+
+                if ($element.width() < 200) {
+                    $element.addClass("greenBorder");
+                } else {
+                    return false;
+                }
+
+            })
+
+        })
+    </script>
+</body>
+
+</html>
